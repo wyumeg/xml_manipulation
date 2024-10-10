@@ -1,0 +1,59 @@
+{
+    "NFe": {
+        "ide": {
+            "nNF": "//nfe:ide/nfe:nNF",
+            "mod": "//nfe:ide/nfe:mod",
+            "serie": "//nfe:ide/nfe:serie",
+            "dhEmi": "//nfe:ide/nfe:dhEmi"
+        },
+        "emit": {
+            "CNPJ": "//nfe:emit/nfe:CNPJ",
+            "xNome": "//nfe:emit/nfe:xNome"
+        },
+        "dest": {
+            "CNPJ": "//nfe:dest/nfe:CNPJ",
+            "xNome": "//nfe:dest/nfe:xNome"
+        },
+        "det": {
+            "prod": {
+                "cProd": "//nfe:det/nfe:prod/nfe:cProd",
+                "xProd": "//nfe:det/nfe:prod/nfe:xProd",
+                "vProd": "//nfe:det/nfe:prod/nfe:vProd"
+            },
+            "imposto": {
+                "ICMS": {
+                    "ICMS00": "//nfe:det/nfe:imposto/nfe:ICMS00",
+                    "ICMS20": "//nfe:det/nfe:imposto/nfe:ICMS20",
+                    "ICMS40": "//nfe:det/nfe:imposto/nfe:ICMS40",
+                    "ICMS60": "//nfe:det/nfe:imposto/nfe:ICMS60",
+                    "ICMS70": "//nfe:det/nfe:imposto/nfe:ICMS70",
+                    "ICMS90": "//nfe:det/nfe:imposto/nfe:ICMS90"
+                },
+                "PIS": {
+                    "PISAliq": {
+                        "CST": "//nfe:det/nfe:imposto/nfe:PIS/PISAliq/nfe:CST",
+                        "vBC": "//nfe:det/nfe:imposto/nfe:PIS/PISAliq/nfe:vBC",
+                        "pPIS": "//nfe:det/nfe:imposto/nfe:PIS/PISAliq/nfe:pPIS",
+                        "vPIS": "//nfe:det/nfe:imposto/nfe:PIS/PISAliq/nfe:vPIS"
+                    },
+                    "PISNT": {
+                        "CST": "//nfe:det/nfe:imposto/nfe:PIS/PISNT/nfe:CST",
+                        "vBC": "//nfe:det/nfe:prod/nfe:vProd"
+                    }
+                },
+                "COFINS": {
+                    "COFINSAliq": {
+                        "CST": "//nfe:det/nfe:imposto/nfe:COFINS/COFINSAliq/nfe:CST",
+                        "vBC": "//nfe:det/nfe:imposto/nfe:COFINS/COFINSAliq/nfe:vBC",
+                        "pCOFINS": "//nfe:det/nfe:imposto/nfe:COFINS/COFINSAliq/nfe:pCOFINS",
+                        "vCOFINS": "//nfe:det/nfe:imposto/nfe:COFINS/COFINSAliq/nfe:vCOFINS"
+                    },
+                    "COFINSNT": {
+                        "CST": "//nfe:det/nfe:imposto/nfe:COFINS/COFINSNT/nfe:CST",
+                        "vBC": "//nfe:det/nfe:prod/nfe:vProd"
+                    }
+                }
+            }
+        }
+    }
+}

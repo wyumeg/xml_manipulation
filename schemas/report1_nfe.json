@@ -1,0 +1,55 @@
+{
+    "Cabeçalho": {
+        "NFE": {
+            "Número": "//nfe:ide/nfe:nNF",
+            "Modelo": "//nfe:ide/nfe:mod",
+            "Série": "//nfe:ide/nfe:serie",
+            "Data de Emsissão": "//nfe:ide/nfe:dhEmi"
+        },
+        "Emitente": {
+            "Nome": "//nfe:emit/nfe:xNome",
+            "CNPJ": "//nfe:emit/nfe:CNPJ",
+            "IE": "//nfe:emit/nfe:IE",
+            "Logradouro": "//nfe:emit/nfe:xLgr",
+            "Número": "//nfe:emit/nfe:nro",
+            "Bairro": "//nfe:emit/nfe:xBairro",
+            "Município": "//nfe:emit/nfe:xMun", 
+            "UF": "//nfe:emit/nfe:UF"
+        },
+        "Destinatário": {
+            "Nome": "//nfe:dest/nfe:xNome",
+            "CNPJ": "//nfe:dest/nfe:CNPJ",
+            "IE": "//nfe:dest/nfe:IE",
+            "Logradouro": "//nfe:dest/nfe:xLgr",
+            "Número": "//nfe:dest/nfe:nro",
+            "Bairro": "//nfe:dest/nfe:xBairro",
+            "Município": "//nfe:dest/nfe:xMun", 
+            "UF": "//nfe:dest/nfe:UF"
+        }
+    },
+    "Totais": {
+        "Nota": {
+            "Valor Total": "//nfe:total/nfe:ICMSTot/nfe:vNF",
+            "Produtos": "//nfe:total/nfe:ICMSTot/nfe:vProd",
+            "Desconto": "//nfe:total/nfe:ICMSTot/nfe:vDesc",
+            "Acréscimo": "//nfe:total/nfe:ICMSTot/nfe:vOutro",
+            "Frete": "//nfe:total/nfe:ICMSTot/nfe:vFrete",
+            "Seguro": "//nfe:total/nfe:ICMSTot/nfe:vSeg",
+            "Outros": "//nfe:total/nfe:ICMSTot/nfe:vOutro"
+        },
+        "ICMS": {
+            "BC ICMS": "//nfe:total/nfe:ICMSTot/nfe:vBC",
+            "Valor": "//nfe:total/nfe:ICMSTot/nfe:vICMS",
+            "BC ICMS ST": "//nfe:total/nfe:ICMSTot/nfe:vBCST",
+            "Valor ST": "//nfe:total/nfe:ICMSTot/nfe:vST"
+        },
+        "PIS": {
+            "BC PIS": "",
+            "Valor PIS": "//nfe:total/nfe:ICMSTot/nfe:vPIS"
+        },
+        "COFINS": {
+            "BC COFINS": "",
+            "Valor COFINS": "//nfe:total/nfe:ICMSTot/nfe:vCOFINS"
+        }
+    }
+}

@@ -34,15 +34,5 @@ class XMLParser:
         except Exception as e:
             raise Exception(f"Erro ao imprimir o XML: {e}")
 
-# Exemplo de uso:
 if __name__ == "__main__":
-    # Apenas para testar o parser de maneira autônoma
-    #xml_file_path = r'C:\\Users\\User\\Desktop\\mirante\\Nova pasta\\31240913569316000140550010000111291367320771-ProcNfe.xml'
-    parser = XMLParser(xml_file_path)
-    
-    # Exemplo: Extrair e imprimir o nome do emitente
-    #emitente = parser.find_element('//nfe:emit/nfe:xNome')
-    #if emitente:
-    #    print(emitente[0].text)
-    #else:
-    #    print("Emitente não encontrado.")
+    parser = XMLParser(xml_file_path) # type: ignore
